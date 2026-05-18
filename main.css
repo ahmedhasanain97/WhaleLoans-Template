@@ -301,6 +301,7 @@ footer .badges{
 /* Mobile screens */
 
 @media (max-width: 767px) {
+    /* here i hid the nav (menu) and made the header visible */
     nav{
         display: none;
     }
@@ -339,6 +340,7 @@ footer .badges{
         justify-content: center;
         align-items: center;
     }
+    /* for the section i made the view column with altering the position order of the inner sections to maintain the template view */
     section{
         flex-flow: column;
         gap: 20px;
@@ -369,6 +371,7 @@ footer .badges{
 /* tablet Screens */
 
 @media (max-width: 992px) {
+    /* here i just hid the nav and made the header visible no other needed changes for this screen width in my opinion */
     nav{
         display: none;
     }
